@@ -200,6 +200,13 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4, .display-1, .display-2, .display-3, .display
 
 /* Producto: usa las tarjetas, formularios y botones globales */
 
+/* Contacto: usa el hero, los formularios y las tarjetas globales */
+
+/* Carrito: usa la grilla, controles y tarjetas de Bootstrap */
+.miniatura-carrito {
+  width: 72px;
+}
+
 /* Perfil */
 .account-sidebar {
   max-width: none;
@@ -388,6 +395,11 @@ section .container {
 }
 
 @media (min-width: 576px) {
+  /* Carrito */
+  .miniatura-carrito {
+    width: 88px;
+  }
+
   /* Global: enlaces legales */
   .legal-bar .d-flex.flex-wrap {
     flex-direction: row;
@@ -454,5 +466,11 @@ section .container {
     min-height: calc(100vh - 80px);
     display: flex;
     align-items: center;
+  }
+
+  /* Carrito */
+  .resumen-carrito {
+    position: sticky;
+    top: 6.5rem;
   }
 }
