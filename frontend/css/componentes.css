@@ -78,6 +78,19 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4, .display-1, .display-2, .display-3, .display
   --bs-card-box-shadow: var(--sombra);
 }
 
+/* Global: enlaces de contenido */
+.enlace-opalina {
+  color: var(--ciruela);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.enlace-opalina:hover,
+.enlace-opalina:focus-visible {
+  color: var(--salvia-oscuro);
+}
+
 /* Global: navbar */
 .navbar-opalina {
   --bs-navbar-color: var(--tinta);
@@ -199,6 +212,27 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4, .display-1, .display-2, .display-3, .display
 /* Catálogo: usa el hero, las tarjetas y las insignias globales */
 
 /* Producto: usa las tarjetas, formularios y botones globales */
+
+/* Cuenta: usa formularios, tarjetas y utilidades de Bootstrap */
+.cuenta-pagina {
+  background: linear-gradient(135deg, var(--crema) 0%, var(--rosa-claro) 54%, var(--salvia-claro) 100%);
+}
+
+.cuenta-seccion {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
+
+.cuenta-imagen {
+  width: 100%;
+  max-width: 420px;
+  margin-inline: auto;
+}
+
+.beneficios-cuenta {
+  max-width: 32rem;
+}
 
 /* Contacto: usa el hero, los formularios y las tarjetas globales */
 
