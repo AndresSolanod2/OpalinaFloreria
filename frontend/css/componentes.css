@@ -10,6 +10,7 @@
   --bs-warning-rgb: 199, 143, 87;
 
   --bs-body-bg: var(--crema);
+  --bs-body-bg-rgb: 255, 248, 239;
   --bs-body-color: var(--tinta);
   --bs-body-font-family: var(--fuente-cuerpo);
   --bs-body-line-height: 1.6;
